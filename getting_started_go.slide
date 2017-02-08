@@ -1,0 +1,112 @@
+The `error` is coming...
+The first impressions about Golang by a Ruby user.
+15:04 08 Feb 2017
+Tags: golang, getting started, go
+
+Armando Alves
+Developer, EmpregoLigado
+armando.alves@empregoligado.com.br
+http://empregoligado.com.br/
+@Armando_Piruk
+go run ...
+
+* before...
+
+_Go_has_a_mascot:_ *"gopher"*
+
+.image images/gophers.png 500 _
+
+* Studying
+
+.image images/exercism.png 500 _
+
+* Studying
+
+.link http://exercism.io/ exercism
+.link https://tour.golang.org/welcome/1 tour go
+.link https://gobyexample.com go by example
+.link https://www.udemy.com/courses/search/?q=golang&src=ukw&lang=en udemy
+
+* Index
+
+- Organizing the environment
+- Reserved keywords
+- Dependencies
+- Debug
+- Testing
+
+* Organizing the environment
+
+: Notes
+
+.image images/gopher-process.jpg
+
+* Organizing the environment
+The first ‘strangeness’
+
+  - $GOROOT
+  - $GOPATH
+.image images/vars.png
+.caption _~/.bashrc_
+
+.image images/vars-ex.png
+.caption _$GOPATH/bin_ and _$GOROOT/bin_
+
+* Organizing the environment
+
+  - $GOPATH/
+    - /bin
+    - /pkg
+    - /src
+.image images/gopher-gala.jpg
+
+* New `words`
+
+Go has only 25 reserved keywords:
+
+.image images/keys.png
+
+- package
+- interface <3
+- pointer <3
+- struct
+- errors
+
+* Dependencies
+
+- Packages
+
+.image images/packages.png
+
+.image images/using-pack.png
+
+> _upper_ and _lowercase_
+
+* Debug ?
+
+- REPL ?
+- console ?
+
+.image images/log.png
+.image images/log-2.png
+
+* Debug
+
+- REPL
+- console
+
+.image images/repl.gif 400 _
+.caption [[http://gobuffalo.io/docs/repl][_gobuffalo.io_]]
+
+* Testing
+
+Package native
+
+.image images/testing.png
+
+* Testing
+
+Interfaces to the rescue
+
+.image images/interface.png
+.image images/interface-mocked.png
